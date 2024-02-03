@@ -2,9 +2,9 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 
 local Window = OrionLib:MakeWindow({
-    Name = "Title of the library",
+    Name = "myterOn",
     HidePremium = false,
-    SaveConfig = true,
+    SaveConfig = false,
     ConfigFolder = "OrionTest"
 })
 
@@ -15,9 +15,9 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-    Name = "Button!",
+    Name = "CreateESP!",
     Callback = function()
-        print("button pressed")
+        print("createESPOn")
     end
 })
 
